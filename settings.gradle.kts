@@ -16,8 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
-rootProject.name = "ai_app"
+rootProject.name = "openCv_Tutorial"
 include(":app")
+include(":sdk")
